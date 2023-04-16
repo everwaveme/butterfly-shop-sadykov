@@ -1,0 +1,15 @@
+.works {
+  padding: 130px 0;
+  text-align: center;
+}
+
+.works-inner {
+  @include inner;
+}
+
+.works-title {
+  margin-bottom: 100px;
+  @include section-title
+}
+
+
