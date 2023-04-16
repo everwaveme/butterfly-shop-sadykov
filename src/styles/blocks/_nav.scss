@@ -1,0 +1,19 @@
+.nav {
+  ul {
+    display: flex;
+    list-style: none;
+  }
+
+  li {
+    padding: 33px 25px;
+  }
+
+  a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: $color-light;
+    text-decoration: none;
+  }
+
+}
