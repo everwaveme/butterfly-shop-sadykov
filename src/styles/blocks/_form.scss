@@ -1,11 +1,13 @@
 .form {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .form-field {
   flex-basis: 33.33%;
   padding: 0 10px;
+  margin-left: -10px;
 }
 
 .form-label {
