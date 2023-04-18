@@ -1,0 +1,30 @@
+.form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-field {
+  flex-basis: 33.33%;
+  padding: 0 10px;
+}
+
+.form-label {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 27px;
+  color: $color-dark;
+}
+
+.form-input {
+  width: 100%;
+  padding: 35px 30px;
+  font-family: $font;
+  font-size: 28px;
+  line-height: 34px;
+  color: $color-dark;
+  border: none;
+  border-radius: 6px;
+}
+
+

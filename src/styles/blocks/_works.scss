@@ -8,8 +8,8 @@
 }
 
 .works-title {
+  @include section-title;
   margin-bottom: 100px;
-  @include section-title
 }
 
 
