@@ -12,4 +12,28 @@
   margin-bottom: 100px;
 }
 
+.works-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 120px;
+  margin-left: -10px;
+}
+
+.works-item {
+  flex-basis: 25%;
+  padding: 0 10px;
+
+}
+
+.works-figure {
+  position: relative;
+}
+
+.works-img-desc {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
 

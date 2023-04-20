@@ -5,22 +5,22 @@
   }
 
   li {
-    // padding: 33px 25px;
+
   }
 
 
   a {
-    display: block;
+    display: inline-block;
     padding: 33px 25px;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
     color: $color-light;
     text-decoration: none;
-  }
 
-  a:hover {
-    background-color: $color-accent;
+    &:hover {
+     background-color: $color-accent;
+    }
   }
 
 }
