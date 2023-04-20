@@ -14,15 +14,12 @@
 
 .works-wrap {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   margin-bottom: 120px;
-  margin-left: -10px;
+
 }
 
 .works-item {
-  flex-basis: 25%;
-  padding: 0 10px;
 
 }
 
@@ -32,8 +29,14 @@
 
 .works-img-desc {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  //left: 0;
+  bottom: 5px;
   width: 100%;
+  padding: 15px;
+  font-size: 24px;
+  line-height: 33px;
+  color: $color-light;
+  background-color: rgba($color-dark, .4);
+
 }
 
