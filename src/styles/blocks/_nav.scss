@@ -1,4 +1,12 @@
 .nav {
+  @media (max-width: $tablet-max) {
+
+  }
+
+  @media (max-width: $mobile-max) {
+    display: none;
+  }
+
   ul {
     display: flex;
     list-style: none;
@@ -7,7 +15,6 @@
   li {
     margin-left: 10px;
   }
-
 
   a {
     display: inline-block;
