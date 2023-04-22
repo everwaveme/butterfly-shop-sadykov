@@ -14,23 +14,32 @@
 
 .works-wrap {
   display: flex;
-  justify-content: space-between;
+  margin-left: -10px;
+  margin-right: -10px;
   margin-bottom: 120px;
 
 }
 
 .works-item {
-
+  flex-basis: 25%;
+  padding: 10px;
 }
 
 .works-figure {
   position: relative;
+  height: 100%;
+}
+
+.works-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .works-img-desc {
   position: absolute;
-  //left: 0;
-  bottom: 5px;
+  left: 0;
+  bottom: 0;
   width: 100%;
   padding: 15px;
   font-size: 24px;
