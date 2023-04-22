@@ -2,6 +2,16 @@
   margin-left: 60px;
   display: flex;
   list-style: none;
+
+  @media (max-width: $tablet-max) {
+    margin-left: 50px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-left: 0;
+    margin-bottom: 35px;
+  }
+
 }
 
 .social-item {
