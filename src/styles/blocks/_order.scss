@@ -4,11 +4,13 @@
   background-color: rgba($color-dark, .1);
 
   @media (max-width: $tablet-max) {
-    padding: 120px 0;
+    padding-top: 120px;
+    padding-bottom: 80px;
   }
 
   @media (max-width: $mobile-max) {
-    padding: 90px 0;
+    padding-top: 90px;
+    padding-bottom: 60px;
   }
 
 }

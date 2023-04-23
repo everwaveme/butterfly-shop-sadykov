@@ -9,9 +9,6 @@
 
   }
 
-  @media (max-width: $mobile-max) {
-
-  }
 }
 
 .form-field {
@@ -20,9 +17,17 @@
 
   @media (max-width: $tablet-max) {
     flex-basis: 50%;
+    margin-bottom: 40px;
   }
 
   @media (max-width: $mobile-max) {
+    flex-basis: 100%;
+    margin-bottom: 30px;
+  }
+}
+
+.form-field-tablet-btn {
+  @media (max-width: $tablet-max) {
     flex-basis: 100%;
   }
 }
