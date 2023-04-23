@@ -1,6 +1,14 @@
 .works {
   padding: 130px 0;
   text-align: center;
+
+  @media (max-width: $tablet-max) {
+    padding: 120px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 90px 0;
+  }
 }
 
 .works-inner {
@@ -10,19 +18,45 @@
 .works-title {
   @include section-title;
   margin-bottom: 100px;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 80px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 60px;
+  }
 }
 
 .works-wrap {
   display: flex;
+  flex-wrap: wrap;
   margin-left: -10px;
   margin-right: -10px;
   margin-bottom: 120px;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 80px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 60px;
+  }
 
 }
 
 .works-item {
   flex-basis: 25%;
   padding: 10px;
+
+  @media (max-width: $tablet-max) {
+    flex-basis: 50%;
+  }
+
+  @media (max-width: $mobile-max) {
+    flex-basis: 100%;
+  }
+
 }
 
 .works-figure {
