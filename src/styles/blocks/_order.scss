@@ -1,6 +1,16 @@
 .order {
-  padding: 130px 0;
+  padding-top: 130px;
+  padding-bottom: 121px;
   background-color: rgba($color-dark, .1);
+
+  @media (max-width: $tablet-max) {
+    padding: 120px 0;
+  }
+
+  @media (max-width: $mobile-max) {
+    padding: 90px 0;
+  }
+
 }
 
 .order-inner {
@@ -10,6 +20,10 @@
 .order-title {
   margin-bottom: 40px;
   @include section-title;
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 20px;
+  }
 }
 
 .order-text {
@@ -18,4 +32,14 @@
   line-height: 38px;
   text-align: center;
   color: $color-dark;
+
+  @media (max-width: $tablet-max) {
+    margin-bottom: 90px;
+  }
+
+  @media (max-width: $mobile-max) {
+    margin-bottom: 60px;
+    font-size: 18px;
+    line-height: 25px;
+  }
 }
