@@ -83,3 +83,23 @@
 
 }
 
+.works-filter-list {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  list-style: none;
+}
+
+.works-filter-list-item {
+  padding: 0 25px;
+}
+
+.works-filter-list-text {
+  font-size: 22px;
+  line-height: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $color-dark;
+}
