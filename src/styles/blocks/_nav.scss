@@ -5,15 +5,33 @@
 
   @media (max-width: $mobile-max) {
     display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 25px 0;
+    background-color: $color-dark;
+
+
   }
 
   ul {
     display: flex;
     list-style: none;
+
+    @media (max-width: $mobile-max) {
+      flex-direction: column;
+      align-items: center;
+
+    }
   }
 
   li {
     margin-left: 10px;
+
+    @media (max-width: $mobile-max) {
+      margin-top: 10px;
+    }
   }
 
   a {
@@ -24,6 +42,7 @@
     line-height: 24px;
     color: $color-light;
     text-decoration: none;
+    text-transform: uppercase;
 
     &:hover {
      background-color: $color-accent;
