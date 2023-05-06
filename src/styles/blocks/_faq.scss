@@ -1,0 +1,15 @@
+.faq {
+  padding: 130px 0 130px;
+}
+
+.faq-inner {
+  @include inner();
+}
+
+.faq-title {
+  @include section-title();
+}
+
+.faq-content {
+  margin-top: 80px;
+}

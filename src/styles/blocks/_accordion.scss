@@ -1,0 +1,28 @@
+.accordion {
+  margin-top: 40px;
+  border: 1px solid rgba($color-accent, .2);
+  border-radius: 4px;
+}
+
+.accordion-btn {
+  width: 100%;
+  padding: 25px 30px;
+  font-family: $font;
+  font-size: 36px;
+  line-height: 49px;
+  font-weight: 300;
+  text-align: left;
+  border: none;
+  background: transparent;
+  color: $color-dark;
+  cursor: pointer;
+}
+
+.accordion-answer {
+  // display: none;
+  padding: 0 30px 30px;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+  color: $color-dark;
+}
