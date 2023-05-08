@@ -1,0 +1,34 @@
+.contacts {
+  padding: 130px 0;
+}
+
+.contacts-inner {
+  @include inner();
+}
+
+.contacts-title {
+  @include section-title();
+  margin-bottom: 80px;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: end;
+}
+
+.contact-info {
+flex-basis: 33.33%;
+
+  p {
+
+  }
+
+  a {
+
+  }
+}
+
+.contact-map {
+  flex-basis: 58.33%;
+}
+
