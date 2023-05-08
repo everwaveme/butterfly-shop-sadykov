@@ -2,6 +2,7 @@
   margin-top: 40px;
   border: 1px solid rgba($color-accent, .2);
   border-radius: 4px;
+
 }
 
 .accordion-btn {
@@ -19,7 +20,7 @@
 }
 
 .accordion-answer {
-  // display: none;
+  display: none;
   padding: 0 30px 30px;
   font-weight: 300;
   font-size: 18px;
