@@ -24,5 +24,18 @@ $('.js-accordion-btn').on('click', function() {
   prevBtn = this;
 })
 
+//Contact tabs
+$('.js-tabs-link').on('click', function(event) {
+event.preventDefault();
+
+let index = $(this).index('.js-tabs-link');
+
+$('.js-tabs-link').removeClass('active');
+$(this).addClass('active');
+
+$('.js-contact-item').removeClass('active');
+$('.js-contact-item').eq(index).addClass('active');
+});
+
 
 });

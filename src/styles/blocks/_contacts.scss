@@ -29,29 +29,16 @@
     margin-right: -$gap-half;
   }
 
-  @media (max-width: $tablet-max) {
-
-  }
-
   @media (max-width: $mobile-max) {
     &.active {
       flex-direction: column;
     }
   }
-
 }
 
 .contact-info {
   flex-basis: 33.33%;
   padding: 0 $gap-half;
-
-  @media (max-width: $tablet-max) {
-
-  }
-
-  @media (max-width: $mobile-max) {
-
-  }
 
 
   p {
@@ -73,9 +60,5 @@
 
   @media (max-width: $tablet-max) {
     flex-basis: 66.66%;
-  }
-
-  @media (max-width: $mobile-max) {
-
   }
 }
